@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" parallel="tests" name="Firefox(failed)">
+    <classes>
+      <class name="com.example.DEMO.TESJO.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginExitoso"/>
+          <include name="loginNoExitoso"/>
+          <include name="loginLockedOutUser"/>
+        </methods>
+      </class> <!-- com.example.DEMO.TESJO.LoginTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

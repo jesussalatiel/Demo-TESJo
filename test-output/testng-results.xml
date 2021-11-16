@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-16T11:41:41 GMT-06:00" name="Default suite" finished-at="2021-11-16T11:42:09 GMT-06:00" duration-ms="28440">
+    <groups>
+    </groups>
+    <test started-at="2021-11-16T11:41:41 GMT-06:00" name="Firefox" finished-at="2021-11-16T11:42:00 GMT-06:00" duration-ms="19363">
+      <class name="com.example.DEMO.TESJO.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:41 GMT-06:00" name="setup" finished-at="2021-11-16T11:41:46 GMT-06:00" duration-ms="5631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginExitoso()[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:46 GMT-06:00" name="loginExitoso" finished-at="2021-11-16T11:41:47 GMT-06:00" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginExitoso -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:47 GMT-06:00" name="tearDown" finished-at="2021-11-16T11:41:48 GMT-06:00" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:48 GMT-06:00" name="setup" finished-at="2021-11-16T11:41:53 GMT-06:00" duration-ms="4747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginLockedOutUser()[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:53 GMT-06:00" name="loginLockedOutUser" finished-at="2021-11-16T11:41:53 GMT-06:00" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:53 GMT-06:00" name="tearDown" finished-at="2021-11-16T11:41:54 GMT-06:00" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:54 GMT-06:00" name="setup" finished-at="2021-11-16T11:41:59 GMT-06:00" duration-ms="4784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginNoExitoso()[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:59 GMT-06:00" name="loginNoExitoso" finished-at="2021-11-16T11:41:59 GMT-06:00" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNoExitoso -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.DEMO.TESJO.LoginTest@1d9b7cce]" started-at="2021-11-16T11:41:59 GMT-06:00" name="tearDown" finished-at="2021-11-16T11:42:00 GMT-06:00" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.DEMO.TESJO.LoginTest -->
+    </test> <!-- Firefox -->
+    <test started-at="2021-11-16T11:42:00 GMT-06:00" name="Chrome" finished-at="2021-11-16T11:42:04 GMT-06:00" duration-ms="3486">
+      <class name="com.example.DEMO.TESJO.ProductsTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.DEMO.TESJO.ProductsTest@f6efaab]" started-at="2021-11-16T11:42:00 GMT-06:00" name="setup" finished-at="2021-11-16T11:42:03 GMT-06:00" duration-ms="2511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validarIconos()[pri:0, instance:com.example.DEMO.TESJO.ProductsTest@f6efaab]" started-at="2021-11-16T11:42:03 GMT-06:00" name="validarIconos" finished-at="2021-11-16T11:42:03 GMT-06:00" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarIconos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.DEMO.TESJO.ProductsTest@f6efaab]" started-at="2021-11-16T11:42:03 GMT-06:00" name="tearDown" finished-at="2021-11-16T11:42:04 GMT-06:00" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.DEMO.TESJO.ProductsTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2021-11-16T11:42:04 GMT-06:00" name="Services" finished-at="2021-11-16T11:42:09 GMT-06:00" duration-ms="5570">
+      <class name="com.example.DEMO.TESJO.ServicesTest">
+        <test-method signature="checkEmployeeStatus()[pri:0, instance:com.example.DEMO.TESJO.ServicesTest@55b699ef]" started-at="2021-11-16T11:42:04 GMT-06:00" name="checkEmployeeStatus" finished-at="2021-11-16T11:42:07 GMT-06:00" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmployeeStatus -->
+        <test-method signature="checkInvalidUrlReturns404()[pri:0, instance:com.example.DEMO.TESJO.ServicesTest@55b699ef]" started-at="2021-11-16T11:42:07 GMT-06:00" name="checkInvalidUrlReturns404" finished-at="2021-11-16T11:42:09 GMT-06:00" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidUrlReturns404 -->
+      </class> <!-- com.example.DEMO.TESJO.ServicesTest -->
+    </test> <!-- Services -->
+  </suite> <!-- Default suite -->
+</testng-results>
